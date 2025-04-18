@@ -1,17 +1,12 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import React from "react";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
+    <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-black text-white">
       This is the day the Lord has made.
       <br />
       Happy Easter
-    </>
+    </div>
   );
 }
 
